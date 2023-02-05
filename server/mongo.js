@@ -22,7 +22,7 @@ const userSchema = new mongoose.Schema(
 		userID: { type: Number, require: true, unique: true },
 		groupID: { type: Number, require: true },
 		name: { type: String, require: true },
-		lattitude: { type: Number, require: true },
+		latitude: { type: Number, require: true },
 		longitude: { type: Number, require: true },
 		phone: { type: String, require: true },
 		last_updated: { type: Date, require: true }
@@ -123,7 +123,7 @@ function nextUserID() {
 // userModel.create({
 // 	userID: "1",
 // 	groupID: "1",
-// 	lattitude: 1,
+// 	latitude: 1,
 // 	longitude: 2,
 // 	phone: null,
 // 	last_updated: Date.now(),
@@ -133,7 +133,7 @@ function nextUserID() {
 // userModel.create({
 // 	userID: "2",
 // 	groupID: "1",
-// 	lattitude: 3,
+// 	latitude: 3,
 // 	longitude: 4,
 // 	phone: "+18043009909",
 // 	last_updated: Date.now(),
@@ -143,7 +143,7 @@ function nextUserID() {
 // userModel.create({
 // 	userID: "3",
 // 	groupID: "1",
-// 	lattitude: 4,
+// 	latitude: 4,
 // 	longitude: 5,
 // 	phone: null,
 // 	last_updated: Date.now(),
@@ -153,7 +153,7 @@ function nextUserID() {
 // create({
 // 	userID: 1,
 // 	groupID: 2,
-// 	lattitude: 1,
+// 	latitude: 1,
 // 	longitude: 2,
 // 	phone: "",
 // 	last_updated: "",
