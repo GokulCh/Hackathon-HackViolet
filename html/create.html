@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <div class="login-box">
+        <h2>Your Group Code</h2>
+        <form>
+          <div class="user-box">
+            <input type="text" id="groupCode" required="">
+          </div>
+        </form>
+      </div>
+
+    </form>
+</div>
+
+<link rel="stylesheet" href="../css/popup.css" />
+</body>
+<script>
+const groupCode = document.getElementById("groupCode");
+groupCode.value = Math.floor(1000 + Math.random() * 9000);
+</script>    </body>
+</html>
